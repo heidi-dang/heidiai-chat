@@ -74,6 +74,13 @@ echo "   -> SSL Tab: Request a new certificate"
 echo "-------------------------------------------------------"
 ~~~
 
+~~~
+chmod +x start_heidichat.sh
+~~~
+~~~
+sudo ./start_heidichat.sh
+~~~
+
 Steps to Activate HTTPS:
 Once the script finishes, you need to configure the certificate in the UI:
 
