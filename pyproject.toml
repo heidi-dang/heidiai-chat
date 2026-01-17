@@ -2,7 +2,7 @@
 name = "heidiai"
 description = "Open WebUI"
 authors = [
-    { name = "Timothy Jaeryang Baek", email = "tim@openwebui.com" }
+    { name = "heidi-dang", email = "heidi.dang.dev@gmail.com" }
 ]
 license = { file = "LICENSE" }
 dependencies = [
@@ -161,7 +161,7 @@ all = [
 ]
 
 [project.scripts]
-heidiai = "open_webui:app"
+heidiai = "heidiai-chat:app"
 
 [build-system]
 requires = ["hatchling"]
@@ -193,7 +193,7 @@ exclude = [
     "webui.db",
     "chroma.sqlite3",
 ]
-force-include = { "CHANGELOG.md" = "open_webui/CHANGELOG.md", build = "open_webui/frontend" }
+force-include = { "CHANGELOG.md" = "heidiai-chat/CHANGELOG.md", build = "heidiai-chat/frontend" }
 
 [tool.codespell]
 # Ref: https://github.com/codespell-project/codespell#using-a-config-file

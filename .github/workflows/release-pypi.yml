@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/heidiai
+      url: https://pypi.org/project/heidiai-chat/
     permissions:
       id-token: write
     steps:
